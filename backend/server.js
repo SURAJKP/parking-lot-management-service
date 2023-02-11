@@ -6,7 +6,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/slots", (req, res) => {
-  res.json({ slots: "Total 1200 Slots Available" });
+  res.json({ slots: 1200 });
 });
 
 app.listen(8000, () => {
